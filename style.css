@@ -1,0 +1,159 @@
+body {
+  background: #ffffff;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container1 {
+  background: #f7cf46;
+  padding: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #485157;
+}
+
+.perfil {
+  display: flex;
+  align-itens: center;
+  }
+
+.perfil-logo {
+  margin: 55px;
+  border-radius: 50px;
+  max-height: 30px;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 150px;
+  box-shadow: 2px 2px 2px #485157;
+}
+
+.page-logo {
+  width: 30px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.redes {
+  width: 20px;
+  top: 10px;
+  right: 10px;
+}
+
+.titulo {
+  margin-left: 20px;
+  }
+
+.titulo h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #485157;
+  }
+
+.titulo h2 {
+  color: #485157;
+  font-size: 18px;
+}
+
+.titulo h3 {
+  color: #485157;
+  font-size: 18px;
+}
+
+.container2 {
+  background: #ffffff;
+  padding: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #485157;
+  text-align: justify;
+  }
+
+.bio h3 {
+  text-transform: uppercase;
+  color: #485157;
+  margin: 0;
+}
+
+.bio h {
+  color: #485157;
+}
+
+.bio li {
+  margin-left: 30px;
+}
+
+hr.solid {
+  width: 100%;
+  Color: #485157;
+  }
+
+.projetos h3 {
+  text-transform: uppercase;
+  color: #485157;
+  margin: 0;
+}
+
+.projetos h {
+   color: #485157;
+}
+
+.projects {
+display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+   }
+
+.container-project {
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  position: relative;
+  margin: 1px;
+  width: 300px;
+  height: 183.75px;
+  border: 3px solid #485157;
+  transition: all 1s;
+}
+
+.foto {
+  position: relative;
+  width: 300px;
+  height: 183.75px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.text-project {
+  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  cursor: pointer;
+  visibility: hidden;
+  width: 300px;
+  height: 150px;
+}
+
+.container-project:hover .text-project {
+  color: #ffffff;
+  visibility: visible;
+}
+
+.container-project:hover .foto {
+  visibility: hidden;
+}
+
+.container-project:hover {
+  border: 3px solid #f7cf46;
+  background: #f7cf46;
+}
