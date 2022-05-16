@@ -1,4 +1,3 @@
-# Portfólio  - Beta
+# Portfólio
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/sarahcastronog/pen/dydNKaW](https://codepen.io/sarahcastronog/pen/dydNKaW).
-
+Criação do meu portfólio a partir do CodePen. Original URL: [https://codepen.io/sarahcastronog/pen/dydNKaW](https://codepen.io/sarahcastronog/pen/dydNKaW).
