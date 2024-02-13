@@ -125,6 +125,20 @@ hr.solid {
   transition: all 1s;
 }
 
+.container-project:hover .text-project {
+  color: #ffffff;
+  visibility: visible;
+}
+
+.container-project:hover .foto {
+  visibility: hidden;
+}
+
+.container-project:hover {
+  border: 3px solid #f7cf46;
+  background: #f7cf46;
+}
+
 .foto {
   position: relative;
   width: 300px;
@@ -144,16 +158,73 @@ hr.solid {
   height: 150px;
 }
 
-.container-project:hover .text-project {
+.container-project2 {
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  position: relative;
+  margin: 1px;
+  width: 300px;
+  height: 250px;
+  border: 3px solid #485157;
+  transition: all 1s;
+}
+
+.container-project2:hover .text-project {
   color: #ffffff;
   visibility: visible;
 }
 
-.container-project:hover .foto {
+.container-project2:hover .foto2 {
   visibility: hidden;
 }
 
-.container-project:hover {
+.container-project2:hover {
   border: 3px solid #f7cf46;
   background: #f7cf46;
+}
+
+.foto2 {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #f7cf46; 
+  color: #485157; 
+  border: 2px solid #485157;
+}
+
+.button1:hover {
+  background-color: #485157;
+  color: white;
+}
+
+.tools {
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.tool {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
 }
