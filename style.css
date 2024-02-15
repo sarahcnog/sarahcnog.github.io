@@ -17,7 +17,7 @@ body {
 .perfil {
   display: flex;
   align-itens: center;
-  }
+}
 
 .perfil-logo {
   margin: 55px;
@@ -46,13 +46,13 @@ body {
 
 .titulo {
   margin-left: 20px;
-  }
+}
 
 .titulo h1 {
   font-weight: bold;
   text-transform: uppercase;
   color: #485157;
-  }
+}
 
 .titulo h2 {
   color: #485157;
@@ -74,7 +74,7 @@ body {
   border-width: 5px;
   border-color: #485157;
   text-align: justify;
-  }
+}
 
 .bio h3 {
   text-transform: uppercase;
@@ -92,8 +92,8 @@ body {
 
 hr.solid {
   width: 100%;
-  Color: #485157;
-  }
+  color: #485157;
+}
 
 .projetos h3 {
   text-transform: uppercase;
@@ -102,7 +102,7 @@ hr.solid {
 }
 
 .projetos h {
-   color: #485157;
+  color: #485157;
 }
 
 .projects {
@@ -111,7 +111,7 @@ hr.solid {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-   }
+}
 
 .container-project {
   margin-left: auto;
@@ -158,38 +158,57 @@ hr.solid {
   height: 150px;
 }
 
-.container-project2 {
+.projects-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-project-2 {
   margin-left: auto;
   margin-right: auto;
   align-content: center;
   position: relative;
   margin: 1px;
-  width: 300px;
-  height: 250px;
+  width: 400px;
+  height: 240px;
   border: 3px solid #485157;
   transition: all 1s;
 }
 
-.container-project2:hover .text-project {
+.container-project-2:hover .text-project-2 {
   color: #ffffff;
   visibility: visible;
 }
 
-.container-project2:hover .foto2 {
+.container-project-2:hover .foto-2 {
   visibility: hidden;
 }
 
-.container-project2:hover {
+.container-project-2:hover {
   border: 3px solid #f7cf46;
   background: #f7cf46;
 }
 
-.foto2 {
+.foto-2 {
   position: relative;
-  width: 300px;
-  height: 250px;
+  width: 400px;
+  height: 240px;
   text-align: center;
   cursor: pointer;
+}
+
+.text-project-2 {
+  font-family: "Roboto Mono", monospace;
+  position: absolute;
+  text-align: center;
+  top: 25%;
+  cursor: pointer;
+  visibility: hidden;
+  width: 400px;
+  height: 240px;
 }
 
 .button {
@@ -207,8 +226,8 @@ hr.solid {
 }
 
 .button1 {
-  background-color: #f7cf46; 
-  color: #485157; 
+  background-color: #f7cf46;
+  color: #485157;
   border: 2px solid #485157;
 }
 
@@ -219,8 +238,8 @@ hr.solid {
 
 .tools {
   display: flex;
-align-items: center;
-justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .tool {
