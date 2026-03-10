@@ -263,12 +263,18 @@
       margin-top: 28px;
     }
 
-    .btn,
-    .dropbtn {
-      width: 100%;
-      max-width: 280px;
+    .btn {
+      width: 240px;
       text-align: center;
     }
+    
+         .dropbtn {
+      width: 288px;
+      text-align: center;
+    }
+    
+    .dropdown-content {
+       min-width: 240px;}
 
     /* Ícones */
     .icon-row {
