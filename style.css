@@ -238,3 +238,124 @@
       background: #485157;
       color: #F8D04F;
     }
+
+  /* ─── RESPONSIVIDADE MOBILE ─── */
+
+  @media (max-width: 768px) {
+
+    /* Hero */
+    .hero h1 {
+      font-size: 36px;
+      letter-spacing: -1px;
+      line-height: 1.2;
+    }
+
+    .hero p {
+      font-size: 16px;
+      margin-top: 16px;
+      padding: 0 8px;
+    }
+
+    .hero-actions {
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .btn,
+    .dropbtn {
+      width: 100%;
+      max-width: 280px;
+      text-align: center;
+    }
+
+    /* Ícones */
+    .icon-row {
+      gap: 10px;
+    }
+
+    .icon-row img {
+      width: 36px;
+      height: 36px;
+    }
+
+    /* Section title */
+    .section-title {
+      font-size: 28px;
+      margin-bottom: 32px;
+    }
+
+    /* Cards — coluna única */
+    .projects-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    .card img {
+      height: 200px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+    }
+
+    .card p {
+      font-size: 14px;
+    }
+
+    /* Tags */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 10px;
+    }
+
+    /* Padding geral das sections */
+    section {
+      padding: 48px 16px;
+    }
+
+    /* Footer */
+    footer {
+      padding: 40px 16px;
+      font-size: 13px;
+    }
+
+    /* Lang switch */
+    .lang-switch {
+      top: 14px;
+      right: 16px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 {
+      font-size: 28px;
+    }
+
+    .hero p {
+      font-size: 15px;
+    }
+  }
+
+  /* ─── TABLET (769px – 1024px) ─── */
+
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .hero h1 {
+      font-size: 52px;
+    }
+
+    .hero p {
+      font-size: 18px;
+    }
+
+    .projects-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-title {
+      font-size: 36px;
+    }
+  }
